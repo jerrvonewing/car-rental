@@ -5,21 +5,15 @@ import './Header.css'
 
 //Core UI imports
 const {
-  CDropdownDivider,
   CForm,
   CFormInput,
   CButton,
-  CDropdown,
-  CDropdownToggle,
-  CDropdownMenu,
   CNavbar,
-  CDropdownItem,
   CContainer,
   CNavbarBrand,
   CNavbarToggler,
   CCollapse,
   CNavbarNav,
-  CNavItem,
   CNavLink,
 } = CoreUI
 
@@ -27,7 +21,12 @@ function Header() {
   const [visible, setVisible] = useState(false)
   return (
     <>
-      <CNavbar expand="lg" colorScheme="light" className="bg-light">
+      <CNavbar
+        expand="lg"
+        colorScheme="light"
+        className="bg-light"
+        id="header-container"
+      >
         <CContainer fluid id="container">
           <CNavbarBrand href="#">
             <img

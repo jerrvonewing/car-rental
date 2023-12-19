@@ -1,0 +1,7 @@
+#deals-button {
+  background-color: rgb(0, 37, 185);
+  border: 0ch;
+}
+#deals-button:hover {
+  opacity: 50%;
+}

@@ -1,3 +1,8 @@
+#header-container {
+  margin: 0 auto;
+  padding: 0;
+}
+
 .rounded-image {
   border-radius: 50%; /* Creates a circular shape */
   overflow: hidden; /* Ensures the image is fully contained within the rounded shape */
