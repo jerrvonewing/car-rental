@@ -1,6 +1,8 @@
 #header-container {
   margin: 0 auto;
   padding: 0;
+  border: 2px solid;
+  border-color: rgb(0, 37, 185);
 }
 
 .rounded-image {
