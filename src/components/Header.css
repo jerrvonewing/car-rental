@@ -21,3 +21,7 @@
 #search-button:hover {
   background-color: rgb(57, 87, 208);
 }
+
+#navbar-links:hover {
+  color: rgb(242, 97, 0);
+}

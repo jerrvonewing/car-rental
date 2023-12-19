@@ -40,16 +40,16 @@ function Header() {
           <CNavbarToggler onClick={() => setVisible(!visible)} />
           <CCollapse className="navbar-collapse" visible={visible}>
             <CNavbarNav>
-              <CNavLink href="#" active>
+              <CNavLink href="#" id="navbar-links" active>
                 Reservations
               </CNavLink>
-              <CNavLink href="#" active>
+              <CNavLink href="#" id="navbar-links" active>
                 Rental Fleet
               </CNavLink>
-              <CNavLink href="#" active>
+              <CNavLink href="#" id="navbar-links" active>
                 About Us
               </CNavLink>
-              <CNavLink href="#" active>
+              <CNavLink href="#" id="navbar-links" active>
                 Contact
               </CNavLink>
             </CNavbarNav>
